@@ -13,6 +13,57 @@
   .nav-text {
     margin-bottom: 30px;
   }
+
+  /* banner section */
+
+  .banner-container {
+    flex-direction: column-reverse;
+    margin-bottom: 10px;
+  }
+  .banner-banner-text,
+  .banner-image {
+    width: 100%;
+  }
+  .banner-text {
+    width: 80%;
+    background-size: cover;
+    text-align: start;
+    padding: 30px 0px 30px 60px;
+    margin: 0 auto;
+  }
+  .banner-text h2 {
+    font-size: 1.5rem;
+    margin: 0px;
+  }
+  .banner-text h1 {
+    font-size: 3.2rem;
+    margin-bottom: 0.6rem;
+  }
+  .icon-color {
+    margin-right: 0.1rem;
+    font-size: 0.7rem;
+  }
+  .icon-text {
+    font-size: 0.7rem;
+    font-weight: 500;
+    margin-top: 0.4rem;
+  }
+  .btn-banner {
+    color: white;
+    background-color: #ff42a5;
+    padding: 15px 25px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 48px;
+    text-transform: uppercase;
+    margin-right: 0.5rem;
+    margin-top: 0.4rem;
+  }
+  .banner-image img {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 /* For tablet  */
@@ -25,5 +76,57 @@
   }
   .nav-text {
     margin-bottom: 20px;
+  }
+
+  /* banner section */
+  .banner-container {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .banner-banner-text,
+  .banner-image {
+    width: 100%;
+  }
+  .banner-text {
+    width: 90%;
+    background-size: contain;
+    text-align: start;
+    padding: 50px;
+    margin: 0 auto;
+  }
+  .banner-text h2 {
+    font-size: 2.4rem;
+    margin: 0px;
+  }
+  .banner-text h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+  }
+  .icon-color {
+    margin-right: 0.6rem;
+    font-size: 1.1rem;
+  }
+  .icon-text {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 1.1rem;
+  }
+  .btn-banner {
+    color: white;
+    background-color: #ff42a5;
+    padding: 18px 28px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 48px;
+    text-transform: uppercase;
+    margin-right: 1.2rem;
+    margin-top: 1.1rem;
+  }
+  .banner-image img {
+    width: 98%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
   }
 }
