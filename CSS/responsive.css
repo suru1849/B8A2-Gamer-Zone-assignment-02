@@ -1,0 +1,28 @@
+/* For Mobile-L-425px */
+
+@media screen and (max-width: 426px) {
+  /* nav section */
+
+  header {
+    margin-bottom: 78px;
+    box-shadow: none;
+  }
+  .nav-text,
+  nav {
+    flex-direction: column;
+  }
+}
+
+/* For tablet  */
+
+@media screen and (min-width: 427px) and (max-width: 769px) {
+  /* nav section */
+
+  header {
+    /* margin-bottom: 78px; */
+    box-shadow: none;
+  }
+  nav {
+    flex-direction: column;
+  }
+}
