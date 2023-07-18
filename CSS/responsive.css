@@ -69,6 +69,7 @@
 
   .weAreGamer {
     background: none;
+    margin-bottom: 0.25rem;
   }
   .weAreGamer-container {
     flex-direction: column;
@@ -102,8 +103,31 @@
   }
   .weAreGamer-text .unleash {
     color: #534c64;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 700;
+  }
+
+  /* Online-games section */
+  .gameCard-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .onlineGames-container h2,
+  .liniear-gradient {
+    font-size: 1.7rem;
+  }
+  .onlineGames-container > .description {
+    margin: 0.7rem 0 3rem 0;
+    font-size: 0.8rem;
+  }
+  .watchNow {
+    top: 42%;
+    left: 36%;
+  }
+  .gameCard .description {
+    font-size: 0.85rem;
+    margin: 1rem 0 0 0;
+    font-weight: 500;
   }
 }
 
@@ -210,5 +234,29 @@
     color: #534c64;
     font-size: 1.6rem;
     font-weight: 700;
+  }
+
+  /* online-games section */
+
+  .gameCard-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.98rem;
+  }
+  .onlineGames-container h2,
+  .liniear-gradient {
+    font-size: 2.5rem;
+  }
+  .onlineGames-container > .description {
+    margin: 0.8rem 0 4.2rem 0;
+    font-size: 1.11rem;
+  }
+  .watchNow {
+    top: 38%;
+    left: 33%;
+  }
+  .gameCard .description {
+    font-size: 0.98rem;
+    margin: 0.6rem 0 0 0;
+    font-weight: 500;
   }
 }
