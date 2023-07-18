@@ -4,12 +4,14 @@
   /* nav section */
 
   header {
-    margin-bottom: 78px;
     box-shadow: none;
   }
   .nav-text,
   nav {
     flex-direction: column;
+  }
+  .nav-text {
+    margin-bottom: 30px;
   }
 }
 
@@ -18,11 +20,10 @@
 @media screen and (min-width: 427px) and (max-width: 769px) {
   /* nav section */
 
-  header {
-    /* margin-bottom: 78px; */
-    box-shadow: none;
-  }
   nav {
     flex-direction: column;
+  }
+  .nav-text {
+    margin-bottom: 20px;
   }
 }
