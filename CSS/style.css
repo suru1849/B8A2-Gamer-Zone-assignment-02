@@ -256,9 +256,58 @@ nav {
   filter: brightness(50%);
 }
 
+/* play games online */
+.playGamesOnline {
+  max-width: 1440px;
+  margin: 130px auto 0;
+  display: flex;
+}
+.playGamesOnline-image {
+  width: 50%;
+}
+.playGamesOnline-image .playGamesOnline-image1 img {
+  width: 100%;
+}
+.playGamesOnline-image .playGamesOnline-image1 {
+  position: relative;
+}
+.playGamesOnline-image .playGamesOnline-image2 img {
+  width: 150%;
+}
+.playGamesOnline-image .playGamesOnline-image2 {
+  position: absolute;
+  top: 60%;
+  left: 70%;
+}
+.playGamesOnline-content {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0 0 100px;
+}
+.playGamesOnline-text {
+  width: 70%;
+}
+.playGamesOnline-text span,
+h2 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.playGamesOnline-text h2 {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.playGamesOnline-text h2 > span {
+  background-color: #0b0223;
+  color: transparent;
+  -webkit-background-clip: text;
+}
 /* Games section style */
 .games {
   background: #ff42a40a;
+  margin-top: 100px;
 }
 .games-container {
   max-width: 1440px;

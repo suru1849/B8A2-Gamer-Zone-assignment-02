@@ -149,6 +149,33 @@
     border: 0.7px solid #ff42a5;
   }
 
+  /* play online section */
+  .playGamesOnline {
+    flex-direction: column-reverse;
+  }
+  .playGamesOnline-image {
+    width: 100%;
+    object-fit: contain;
+  }
+  .playGamesOnline-image .playGamesOnline-image1 img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+  .playGamesOnline-image .playGamesOnline-image2 img {
+    width: 90%;
+  }
+  .playGamesOnline-image .playGamesOnline-image2 {
+    position: absolute;
+    top: 70%;
+    left: 70%;
+  }
+  .playGamesOnline-content {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
   /* footer section */
   .footer-logo {
     gap: 10px;
@@ -346,6 +373,27 @@
   .singleGame:hover {
     border: 1px solid #ff42a5;
   }
+
+  /* online-play-games section */
+  .playGamesOnline {
+    margin: 110px auto 0px;
+  }
+  .playGamesOnline-content {
+    padding: 0;
+  }
+  .playGamesOnline-text {
+    width: 80%;
+    margin-left: 80px;
+  }
+  .playGamesOnline-text span,
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .playGamesOnline-text .description {
+    font-size: 0.8rem;
+  }
+
   /* footer section */
   .footer-icon,
   .footer-links {
