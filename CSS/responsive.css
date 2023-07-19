@@ -150,6 +150,14 @@
   }
 
   /* play online section */
+  .playGamesOnline-content {
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.168);
+  }
+  .playGamesOnline-text span,
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
   .playGamesOnline {
     flex-direction: column-reverse;
   }
@@ -226,6 +234,7 @@
   }
 }
 
+/* ---FOR TABLTE  ------------------------------- */
 /* For tablet  */
 
 @media screen and (min-width: 427px) and (max-width: 769px) {
@@ -380,6 +389,7 @@
   }
   .playGamesOnline-content {
     padding: 0;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.168);
   }
   .playGamesOnline-text {
     width: 80%;
